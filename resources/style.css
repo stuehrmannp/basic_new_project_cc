@@ -1,0 +1,39 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Header and Nav Section */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+header img {
+  height: 150px;
+  width: auto;
+}
+
+nav {
+  padding-right: 20px;
+}
+
+li {
+  display: inline-block;
+  padding-left: 15px;
+}
+
+nav a {
+  color: rgb(34, 36, 34);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: rgb(9, 226, 9);
+}
