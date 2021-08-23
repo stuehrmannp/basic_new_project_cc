@@ -82,3 +82,69 @@ section.banner {
   font-style: italic;
   opacity: 0.8;
 }
+
+/* Product Section */
+
+.product {
+  display: flex;
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.col-1 {
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+  flex-direction: column;
+  background-color: rgb(243, 243, 243);
+  margin-right: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.col-1 .img-container {
+  height: 250px;
+  width: 100%;
+  background-image: url("./img/phone-img.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.col-1 h2 {
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: rgb(34, 36, 34);
+}
+
+.col-2 {
+  width: 50%;
+  background-color: rgb(243, 243, 243);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.col-2 h2 {
+  margin-top: 30px;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.col-2 p {
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+
+/* Testimonial Section */
+
+.test-cards {
+    
+}
